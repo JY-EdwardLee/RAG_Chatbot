@@ -668,6 +668,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"2R06K":[function(require,module,exports,__globalThis) {
 var _runtime = require("regenerator-runtime/runtime"); // if needed for async/await in older browsers
+var _stylesCss = require("./styles.css");
 const chatContainer = document.getElementById("chat-container");
 const messageForm = document.getElementById("message-form");
 const userInput = document.getElementById("user-input");
@@ -858,7 +859,7 @@ newChatBtn.addEventListener("click", async ()=>{
 initDB().then(loadExistingMessages);
 console.log(BASE_URL);
 
-},{"regenerator-runtime/runtime":"f6ot0"}],"f6ot0":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime/runtime":"f6ot0","./styles.css":"lW6qc"}],"f6ot0":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -1443,6 +1444,6 @@ try {
     else Function("r", "regeneratorRuntime = r")(runtime);
 }
 
-},{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire28d8", {})
+},{}],"lW6qc":[function() {},{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire28d8", {})
 
 //# sourceMappingURL=frontend.0f77c784.js.map
